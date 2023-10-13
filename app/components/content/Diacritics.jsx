@@ -1,7 +1,6 @@
-import { diacritics } from "@/app/(site)/hiragana/data";
 import Link from "next/link";
 
-export const Diacritics = () => {
+export const Diacritics = ({ diacritics }) => {
   return (
     <div className="text-center">
       <p className="text-3xl m-5">Dakuten and Handakuten</p>

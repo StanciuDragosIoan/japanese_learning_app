@@ -1,4 +1,4 @@
-export const katakanaAlphabete = [
+export const katakanaAlphabet = [
   "A - ア",
   "I - イ",
   "U - ウ",
@@ -37,340 +37,414 @@ export const katakanaAlphabete = [
   "Ya - ヤ",
   "Yu - ユ",
   "Yo - ヨ",
+  "Ra - ラ",
+  "Ri - リ",
+  "Ru - ル",
+  "Re - レ",
+  "Ro - ロ",
+  "Wa - ワ",
+  "Wi - ヰ",
+  "We - ヱ",
+  "Wo - ヲ",
+  "N - ン",
 ];
 
 export const diacritics = [
   {
-    kana: "か",
-    translation: "Ka",
-    dakuten: "が",
-    dakutenTranslation: "Ga",
+    kana: "ウ",
+    translation: "U",
+    dakuten: "ヴ",
+    dakutenTranslation: "vu/bu/v",
   },
 
   {
-    kana: "き",
-    translation: "Ki",
-    dakuten: "ぎ",
-    dakutenTranslation: "Gi",
-  },
-
-  {
-    kana: "く",
-    translation: "Ku",
-    dakuten: "ぐ",
-    dakutenTranslation: "Gu",
-  },
-
-  {
-    kana: "け",
-    translation: "Ke",
-    dakuten: "げ",
-    dakutenTranslation: "Ge",
-  },
-
-  {
-    kana: "こ",
-    translation: "Ko",
-    dakuten: "ご",
-    dakutenTranslation: "Go",
-  },
-
-  {
-    kana: "さ",
+    kana: "サ",
     translation: "Sa",
-    dakuten: "ざ",
+    dakuten: "ザ",
     dakutenTranslation: "Za",
   },
 
   {
-    kana: "し",
+    kana: "シ",
     translation: "Shi",
-    dakuten: "じ",
-    dakutenTranslation: "Ji",
+    dakuten: "ジ",
+    dakutenTranslation: "Dji",
   },
 
   {
-    kana: "す",
+    kana: "ス",
     translation: "Su",
-    dakuten: "ず",
+    dakuten: "ズ",
     dakutenTranslation: "Zu",
   },
 
   {
-    kana: "せ",
+    kana: "セ",
     translation: "Se",
-    dakuten: "ぜ",
+    dakuten: "ゼ",
     dakutenTranslation: "Ze",
   },
 
   {
-    kana: "そ",
+    kana: "ソ",
     translation: "So",
-    dakuten: "ぞ",
+    dakuten: "ゾ",
     dakutenTranslation: "Zo",
+  },
+
+  {
+    kana: "タ",
+    translation: "Ta",
+    dakuten: "ダ",
+    dakutenTranslation: "Da",
+  },
+
+  {
+    kana: "チ",
+    translation: "Chi",
+    dakuten: "ヂ",
+    dakutenTranslation: "Ji",
+  },
+
+  {
+    kana: "ツ",
+    translation: "Tsu",
+    dakuten: "ヅ",
+    dakutenTranslation: "Zu",
+  },
+
+  {
+    kana: "テ",
+    translation: "Te",
+    dakuten: "デ",
+    dakutenTranslation: "De",
     variant: {
       value: "ソ",
     },
   },
 
   {
-    kana: "た",
-    translation: "Ta",
-    dakuten: "だ",
-    dakutenTranslation: "Da",
-  },
-
-  {
-    kana: "ち",
-    translation: "Chi",
-    dakuten: "ぢ",
-    dakutenTranslation: "Dji",
-  },
-
-  {
-    kana: "つ",
-    translation: "Tsu",
-    dakuten: "づ",
-    dakutenTranslation: "Dzu",
-  },
-
-  {
-    kana: "て",
-    translation: "Te",
-    dakuten: "で",
-    dakutenTranslation: "De",
-  },
-
-  {
-    kana: "と",
+    kana: "ト",
     translation: "To",
-    dakuten: "ど",
+    dakuten: "ド",
     dakutenTranslation: "Do",
   },
 
   {
-    kana: "は",
+    kana: "ハ",
     translation: "Ha",
-    dakuten: "ば",
+    dakuten: "バ",
     dakutenTranslation: "Ba",
-    handakuten: "ぱ",
+    handakuten: "パ",
     handakutenTranslation: "Pa",
   },
 
   {
-    kana: "ひ",
+    kana: "ヒ",
     translation: "Hi",
-    dakuten: "び",
+    dakuten: "ビ",
     dakutenTranslation: "Bi",
-    handakuten: "ぴ",
+    handakuten: "ピ",
     handakutenTranslation: "Pi",
   },
 
   {
-    kana: "ふ",
+    kana: "フ",
     translation: "Fu",
-    dakuten: "ぶ",
+    dakuten: "ブ",
     dakutenTranslation: "Bu",
-    handakuten: "ぷ",
+    handakuten: "プ",
     handakutenTranslation: "Pu",
   },
 
   {
     kana: "へ",
     translation: "He",
-    dakuten: "ベ",
+    dakuten: "べ",
     dakutenTranslation: "Be",
-    handakuten: "ペ",
+    handakuten: "ぺ",
     handakutenTranslation: "Pe",
   },
 
   {
-    kana: "ほ",
+    kana: "ホ",
     translation: "Ho",
-    dakuten: "ぼ",
+    dakuten: "ボ",
     dakutenTranslation: "Bo",
-    handakuten: "ぽ",
+    handakuten: "ポ",
     handakutenTranslation: "Po",
   },
 ];
 
 export const dyagraphs = [
   {
-    dyagraph: "きゃ",
+    dyagraph: "イェ",
+    translation: "Ye",
+  },
+
+  {
+    dyagraph: "ウィ",
+    translation: "Wi",
+  },
+
+  {
+    dyagraph: "ウェ",
+    translation: "We",
+  },
+
+  {
+    dyagraph: "ウォ",
+    translation: "Wo",
+  },
+
+  {
+    dyagraph: "ヴァ",
+    translation: "Va",
+  },
+
+  {
+    dyagraph: "ヴィ",
+    translation: "Vi",
+  },
+
+  {
+    dyagraph: "ヴェ",
+    translation: "Ve",
+  },
+
+  {
+    dyagraph: "ヴォ",
+    translation: "Vo",
+  },
+
+  {
+    dyagraph: "シェ",
+    translation: "She",
+  },
+
+  {
+    dyagraph: "ジェ",
+    translation: "Dje",
+  },
+
+  {
+    dyagraph: "シェ",
+    translation: "Tche",
+  },
+
+  {
+    dyagraph: "ファ",
+    translation: "Fa",
+  },
+
+  {
+    dyagraph: "フィ",
+    translation: "Fi",
+  },
+
+  {
+    dyagraph: "フェ",
+    translation: "Fe",
+  },
+
+  {
+    dyagraph: "フォ",
+    translation: "Fo",
+  },
+
+  {
+    dyagraph: "キャ",
     translation: "Kya",
-    handakuten: "ぎゃ",
-    handakutenTranslation: "Gya",
   },
 
   {
-    dyagraph: "きゅ",
+    dyagraph: "キュ",
     translation: "Kyu",
-    handakuten: "ぎゅ",
-    handakutenTranslation: "Gyu",
   },
 
   {
-    dyagraph: "きょ",
+    dyagraph: "キョ",
     translation: "Kyo",
-    handakuten: "ぎょ",
-    handakutenTranslation: "Gyo",
   },
 
   {
-    dyagraph: "しゃ",
-    translation: "Sha",
-    handakuten: "じゃ",
-    handakutenTranslation: "Ja",
+    dyagraph: "ギャ",
+    translation: "Gya",
   },
 
   {
-    dyagraph: "しゅ",
-    translation: "Shu",
-    handakuten: "じゅ",
-    handakutenTranslation: "Ju",
+    dyagraph: "ギュ",
+    translation: "Kyu",
   },
 
   {
-    dyagraph: "しょ",
-    translation: "Sho",
-    handakuten: "じょ",
-    handakutenTranslation: "Jo",
+    dyagraph: "ギョ",
+    translation: "Gyo",
   },
 
   {
-    dyagraph: "ちゃ",
-    translation: "Cha",
+    dyagraph: "シャ",
+    translation: "Shya",
   },
 
   {
-    dyagraph: "ちゅ",
-    translation: "Chu",
+    dyagraph: "シュ",
+    translation: "Shyu",
   },
 
   {
-    dyagraph: "ちょ",
-    translation: "Cho",
+    dyagraph: "ショ",
+    translation: "Shyo",
   },
 
   {
-    dyagraph: "にゃ",
+    dyagraph: "ジャ",
+    translation: "Jya",
+  },
+
+  {
+    dyagraph: "ジュ",
+    translation: "Jyu",
+  },
+
+  {
+    dyagraph: "ジョ",
+    translation: "Jyo",
+  },
+
+  {
+    dyagraph: "チャ",
+    translation: "Chya",
+  },
+
+  {
+    dyagraph: "チュ",
+    translation: "Chyu",
+  },
+
+  {
+    dyagraph: "チョ",
+    translation: "Chyo",
+  },
+
+  {
+    dyagraph: "ニャ",
     translation: "Nya",
   },
 
   {
-    dyagraph: "にゅ",
+    dyagraph: "ニュ",
     translation: "Nyu",
   },
 
   {
-    dyagraph: "にょ",
+    dyagraph: "ニョ",
     translation: "Nyo",
   },
 
   {
-    dyagraph: "ひゃ",
+    dyagraph: "ヒャ",
     translation: "Hya",
-    dakuten: "びゃ",
-    dakutenTranslation: "Bya",
-    handakuten: "ぴゃ",
-    handakutenTranslation: "Pya",
   },
 
   {
-    dyagraph: "ひゅ",
+    dyagraph: "ヒュ",
     translation: "Hyu",
-    dakuten: "びゅ",
-    dakutenTranslation: "Byu",
-    handakuten: "ぴゅ",
-    handakutenTranslation: "Pyu",
   },
 
   {
-    dyagraph: "ひょ",
+    dyagraph: "ヒョ",
     translation: "Hyo",
-    dakuten: "びょ",
-    dakutenTranslation: "Byo",
-    handakuten: "ぴょ",
-    handakutenTranslation: "Pyo",
   },
 
   {
-    dyagraph: "みゃ",
+    dyagraph: "ビャ",
+    translation: "Bya",
+  },
+
+  {
+    dyagraph: "ビュ",
+    translation: "Byu",
+  },
+
+  {
+    dyagraph: "ビョ",
+    translation: "Byo",
+  },
+
+  {
+    dyagraph: "ピャ",
+    translation: "Pya",
+  },
+
+  {
+    dyagraph: "ピュ",
+    translation: "Pyu",
+  },
+
+  {
+    dyagraph: "ピョ",
+    translation: "Pyo",
+  },
+
+  {
+    dyagraph: "ミャ",
     translation: "Mya",
   },
 
   {
-    dyagraph: "みゅ",
+    dyagraph: "ミュ",
     translation: "Myu",
   },
 
   {
-    dyagraph: "みょ",
+    dyagraph: "ミョ",
     translation: "Myo",
   },
 
   {
-    dyagraph: "りゃ",
+    dyagraph: "リャ",
     translation: "Rya",
   },
 
   {
-    dyagraph: "りゅ",
+    dyagraph: "リュ",
     translation: "Ryu",
   },
 
   {
-    dyagraph: "りょ",
+    dyagraph: "リョ",
     translation: "Ryo",
   },
 ];
 
-export const hiraganaWords = [
-  { word: "うえ", translation: "up/above" },
-  { word: "あい", translation: "love" },
-  { word: "いいえ", translation: "no" },
-  { word: "あおい", translation: "blue" },
-  { word: "えいが", translation: "movie" },
-  { word: "こえ", translation: "voice" },
-  { word: "かく", translation: "to write" },
-  { word: "かげ", translation: "shadow" },
-  { word: "きおく", translation: "memory" },
-  { word: "かぎ", translation: "key" },
-  { word: "おおきい", translation: "big" },
-  { word: "しお", translation: "salt" },
-  { word: "じこ", translation: "accident" },
-  { word: "すし", translation: "sushi" },
-  { word: "さいご", translation: "last" },
-  { word: "おさけ", translation: "alcohool" },
-  { word: "すぐ", translation: "immediately" },
-  { word: "がくせい", translation: "student" },
-  { word: "かさ", translation: "umbrella" },
-  { word: "おかしい", translation: "weird" },
-  { word: "すこし", translation: "a little" },
-  { word: "きし", translation: "knight" },
-  { word: "さすう", translation: "to invite" },
-  { word: "うさぎ", translation: "rabbit" },
-  { word: "かえす", translation: "to return" },
-  { word: "こうこうせい", translation: "student" },
-  { word: "さがす", translation: "to search" },
-  { word: "さく", translation: "to bloom" },
-  { word: "おねがい", translation: "please/request" },
-  { word: "ねこ", translation: "cat" },
-  { word: "おかね", translation: "money" },
-  { word: "いぬ", translation: "dog" },
-  { word: "ふくざつ", translation: "complicated" },
-  { word: "はな", translation: "flower" },
-  { word: "はなび", translation: "fireworkds" },
-  { word: "きもの", translation: "kimono" },
-  { word: "まいにち", translation: "every day" },
-  { word: "むずかし", translation: "difficult" },
-  { word: "あたま", translation: "head" },
-  { word: "め", translation: "eye" },
-  { word: "おふろ", translation: "bath" },
-  { word: "さる", translation: "monkey" },
-  { word: "くすり", translation: "medicine" },
-  { word: "きょう", translation: "today" },
-  { word: "わたし", translation: "I/me" },
-  { word: "たんじょうび", translation: "birthday" },
-  { word: "おかあさん", translation: "mother" },
+export const katakanaWords = [
+  { word: "カカア", translation: "cocoa" },
+  { word: "エコ", translation: "eco friendly" },
+  { word: "ケーキ", translation: "cake" },
+  { word: "オーケー", translation: "okay" },
+  { word: "イケてる", translation: "cool/sexy" },
+  { word: "ウイスキー", translation: "whiskey" },
+  { word: "アジア", translation: "Asia" },
+  { word: "ソース", translation: "sauce/source" },
+  { word: "デート", translation: "romantic date" },
+  { word: "チーズ", translation: "cheese" },
+  { word: "サッカー", translation: "soccer" },
+  { word: "スイッチ", translation: "switch" },
+  { word: "コーヒー", translation: "coffee" },
+  { word: "ビジネス", translation: "business" },
+  { word: "ベース", translation: "bass" },
+  { word: "デジカメ", translation: "digital camera" },
+  { word: "メキシコ", translation: "Mexico" },
+  { word: "スマホ", translation: "smartphone" },
+  { word: "ゲーム", translation: "game" },
+  { word: "ジュース", translation: "juice" },
+  { word: "メニュー", translation: "menu" },
+  { word: "チョコレート", translation: "chocolate" },
+  { word: "バーベキュー", translation: "barbecue" },
+  { word: "Tシャツ", translation: "t-shirt" },
+  { word: "エアコン", translation: "air conditioneer" },
+  { word: "コンタクト", translation: "contact lenses" },
+  { word: "コンビニ", translation: "convenience store" },
+  { word: "プレゼント", translation: "present" },
 ];

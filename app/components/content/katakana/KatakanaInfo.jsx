@@ -10,12 +10,12 @@ export const KatakanaInfo = () => {
         Hiragana
       </Link>
       when it comes to pronounciation. The main difference is how the characters
-      look and when they are used. They look completely different from{" "}
+      look and when they are used. They look completely different from
       <Link className="p-1 hover:text-gray-800 underline" href="/hiragana">
         Hiragana
       </Link>
       and are more angular. Only a few characters look similar (like か
-      -hiragana / カ -katakana)
+      -hiragana / カ -katakana). They are used for foregin or loan words.
     </p>
   );
 };

@@ -1,11 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { KatakanaInfo } from "./KatakanaInfo";
+import { KatakanaInfo } from "./katakana/KatakanaInfo";
+import { HiraganaInfo } from "./hiragana/HiraganaInfo";
 export const HeaderComponent = ({
   script,
   imgSrc,
   imgAlt,
   katakana = false,
+  hiragana = false,
 }) => {
   return (
     <div className="text-white w-80 mx-auto py-12">
@@ -33,6 +35,7 @@ export const HeaderComponent = ({
           <Image src={imgSrc} width={500} height={500} priority alt={imgAlt} />
         </div>
         {katakana && <KatakanaInfo />}
+        {hiragana && <HiraganaInfo />}
       </div>
     </div>
   );
