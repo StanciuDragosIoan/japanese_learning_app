@@ -1,5 +1,5 @@
 import Image from "next/image";
-export const StrokeOrder = ({ indexes, script }) => {
+export const StrokeOrder = ({ indexes, script, scriptName }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 gap-4 center">
       {script.map((i, index) => {
@@ -16,10 +16,12 @@ export const StrokeOrder = ({ indexes, script }) => {
               </p>
               <Image
                 className="mx-auto m-5 rounded-full"
-                src={`/assets/hiragana/hiragana_${translation}.gif`}
-                width={90}
-                height={90}
-                alt={`hiragana ${translation}`}
+                src={`/assets/${scriptName}/${scriptName}_${translation}.gif`}
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "90px", height: "auto" }}
+                alt={`${scriptName} ${translation}`}
               />
             </div>
           </>
