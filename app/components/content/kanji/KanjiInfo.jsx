@@ -7,7 +7,7 @@ export const KanjiInfo = () => {
           <Link className="p-1 hover:text-gray-800 underline" href="/kanji">
             Kanji
           </Link>
-          is the mos widely used Japanese script. Hoever it is not native to
+          is the mos widely used Japanese script. However it is not native to
           Japan, it was brought in and adapted from China.
         </p>
       </div>
