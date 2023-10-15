@@ -76,7 +76,9 @@ export const Navigation = () => {
         >
           {links.map((item, index) => (
             <li className="px-5 py-1" key={index}>
-              <Link href={item.url}>{item.caption}</Link>
+              <Link href={item.url} target="_blank">
+                {item.caption}
+              </Link>
             </li>
           ))}
 
@@ -86,7 +88,9 @@ export const Navigation = () => {
         <ul className="hidden lg:flex lg:space-x-4 px-5 lg:items-center text-white">
           {links.map((item, index) => (
             <li key={index}>
-              <Link href={item.url}>{item.caption}</Link>
+              <Link href={item.url} target="_blank">
+                {item.caption}
+              </Link>
             </li>
           ))}
 
