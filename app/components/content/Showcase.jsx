@@ -14,7 +14,7 @@ export const Showcase = () => {
             />
           </div>
         </div>
-        <div className="w-full md:w-1/2 p-4 lg:max-w-[30%] md:max-w-[50%] flex items-center justify-center">
+        <div className="flex flex-col md:flex-row mt-10 w-[80%] mx-auto md:w-[40%]">
           <div className="p-4 mt-5">
             <p className="text-xl py-5 md:py-0 lg:py-5">
               If you ever dreamed of speaking the Japanese language, you are in
@@ -28,17 +28,19 @@ export const Showcase = () => {
               >
                 Hiragana,
               </Link>
+              <br />
               <Link
                 className="p-5 hover:text-gray-800 underline"
                 href="/katakana"
               >
                 Katakana
               </Link>
+              <br />
               or
               <Link className="p-5 hover:text-gray-800 underline" href="/kanji">
                 Kanji
               </Link>
-              as well as some basic conversational phrases.
+              as well as some reading.
             </p>
           </div>
         </div>

@@ -3,6 +3,11 @@ import { KanjiExtra } from "../../components/content/kanji/KanjiExtra";
 import { StrokeOrderKanji } from "../../components/content/kanji/StrokeOrderKanji";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Kanji",
+  description: "Page to learn Kanji",
+};
 export default function Kanji() {
   return (
     <>
