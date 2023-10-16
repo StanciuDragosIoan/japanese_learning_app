@@ -6,7 +6,7 @@ import { Footer } from "./components/layout/footer/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Kawaii Learn",
+  title: "Momo",
   description: "Japanese Language Learning App",
 };
 

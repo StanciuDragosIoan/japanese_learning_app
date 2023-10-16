@@ -76,7 +76,7 @@ export const Footer = () => {
           className="text-neutral-800 dark:text-neutral-400"
           href="https://tailwind-elements.com/"
         >
-          Kawaii Learn
+          Momo Learn
         </a>
       </div>
     </footer>

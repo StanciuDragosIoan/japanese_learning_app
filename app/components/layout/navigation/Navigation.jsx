@@ -27,6 +27,7 @@ export const Navigation = () => {
       url: "/kanji",
       caption: "Kanji",
     },
+    { url: "/readings", caption: "Readings" },
   ];
 
   return (
@@ -34,7 +35,7 @@ export const Navigation = () => {
       <div className="flex items-center justify-between">
         <div className="flex items-center">
           <div className="mr-4 text-white">
-            <a href="/meals" target="_blank">
+            <a href="/" target="_blank">
               <img className="h-16 rounded-full" src="/logo.jpg" alt="Logo" />
             </a>
           </div>

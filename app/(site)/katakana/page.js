@@ -2,11 +2,14 @@ import { StrokeOrder } from "../../components/content/StrokeOrder";
 import { Diacritics } from "../../components/content/Diacritics";
 import { Dyagraphs } from "../../components/content/Dyagraphs";
 import { PracticeSection } from "../../components/content/PracticeSection";
-import { HeaderComponent } from "../../components/content/HeaderComponent";
+import { HeaderComponent } from "../../components/content/Header";
 import { ImageComponent } from "../../components/content/ImageComponent";
 import { diacritics, dyagraphs } from "../../(site)/katakana/data";
 import { katakanaWords, katakanaAlphabet } from "../../(site)/katakana/data";
-
+export const metadata = {
+  title: "Katakana",
+  description: "Page to learn Katakana",
+};
 export default function Katakana() {
   return (
     <>

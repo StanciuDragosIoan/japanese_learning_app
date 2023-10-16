@@ -4,8 +4,11 @@ import { Diacritics } from "../../components/content/Diacritics";
 import { Dyagraphs } from "../../components/content/Dyagraphs";
 import { PracticeSection } from "../../components/content/PracticeSection";
 import { ImageComponent } from "../../components/content/ImageComponent";
-import { HeaderComponent } from "../../components/content/HeaderComponent";
-
+import { HeaderComponent } from "../../components/content/Header";
+export const metadata = {
+  title: "Hiragana",
+  description: "Page to learn Hiragana",
+};
 export default function Hiragana() {
   return (
     <>

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { HiraganaDyagraphsInfo } from "./hiragana/HiraganaDyagraphsInfo";
 import { KatakanaDyagraphsInfo } from "./katakana/KatakanaDyagraphsInfo";
 export const Dyagraphs = ({
